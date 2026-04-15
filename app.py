@@ -13,7 +13,7 @@ def health():
 @app.route('/me')
 def me():
     return jsonify({
-        "name":"Nwanekwu_Macdonald",          # Replace with your real name
+        "name":"NwanekwuMacdonald",          # Replace with your real name
         "email":"eugewoscar@gmail.com",        # Replace with your real email
         "github":"https://github.com/RealNald"  # Replace with your GitHub
     })
